@@ -1,0 +1,142 @@
+html{
+  scroll-behavior:smooth;
+}
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+body{
+  font-family: Arial, sans-serif;
+  line-height: 1,5;
+}
+
+.container{
+  max-width:1200px;
+  margin: 0px auto;
+  padding: 0 20px;
+}
+
+.header{
+  background:#6f4e37;
+  padding:10px 0;
+}
+.header-container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  gap:100px;
+}
+.logo img{
+  display:flex;
+  width:100px;
+  height:auto;
+}
+.navbar{
+}
+.navbar ul{
+  list-style:none;
+  display:flex;
+  gap:30px;
+  border: 1px solid #6f4e37;
+  padding: 10px 20px;
+  background:white;
+  border-radius:25px;
+}
+.navbar a{
+  text-decoration:none;
+  color:black;
+  padding:8px 12px;
+  border-radius: 5px;
+}
+.navbar a:hover{
+  color:white;
+  background:#6f4e37;
+}
+.hero{
+background:#6f4e37;
+text-align:center;
+padding:100px 20px;
+color:white;
+padding-bottom:600px;
+}
+.hero h1{
+  font-size:3.5rem;
+  margin-bottom:20px;
+}
+.hero p{
+  font-size:1.5rem;
+  margin-bottom:50px;
+  text-transform:capitalize;
+}
+.btn{
+  padding:10px 20px;
+  border:1px solid white;
+  border-radius:10px;
+  text-decoration:none;
+  color:white;
+}
+.btn:hover{
+  background:white;
+  color:#6f4e37;
+}
+.about{
+  background:#5E3214;
+}
+.about-container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  gap:50px;
+  opacity:0px;
+  transform: translateX(50px);
+  transition: all 2.5s cubic-bezier(0.22,1,0.36,1);
+}
+.about-container.show{
+  opacity:1px;
+  transform:translateX(0);
+}
+.gambar1 img{
+  width:500px;
+  height:auto;
+  display:flex;
+  padding:60px;
+}
+.paragrap1 p{
+  display:flex;
+  color:white;
+  text-transform:capitalize;
+  text-align:justify;
+  font-size:1.5rem;
+  line-height:2.5;
+}
+.about2{
+  background:#4C5D3D;
+}
+.about-container2{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  gap:50px;
+  transform: translateX(-50px);
+  transition: all 2.5s cubic-bezier(0.22,1,0.36,1);
+}
+.about-container2.show{
+  opacity:1px;
+  transform:translateX(0);
+}
+.gambar2 img{
+  width:500px;
+  height:auto;
+  display:flex;
+  padding:60px;
+}
+.paragrap2 p{
+  display:flex;
+  color:white;
+  text-transform:capitalize;
+  text-align:justify;
+  font-size:1.5rem;
+  line-height:2.5;
+}
+

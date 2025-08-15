@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kopi Gunung Agung</title>
+    <!-- Optional: Link to external CSS stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header class="header">
+      <div class="container header-container"> 
+        Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux.<div class="logo">
+          <img src="logo.png" alt="">
+        </div>
+        
+      </div>
+
+    </header>
+    <script src="script.js"></script>
+</body>
+</html>
