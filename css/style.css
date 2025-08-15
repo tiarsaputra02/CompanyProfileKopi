@@ -54,11 +54,13 @@ body{
   background:#6f4e37;
 }
 .hero{
-background:#6f4e37;
+background:linear-gradient(rgba(111,78,55,0.6), rgba(111,78,55,0.6)),url('../images/background1.jpg') no-repeat center center;
+background-size:cover;
+height:100vh;
 text-align:center;
 padding:100px 20px;
 color:white;
-padding-bottom:600px;
+padding-bottom:100px;
 }
 .hero h1{
   font-size:3.5rem;
@@ -81,7 +83,7 @@ padding-bottom:600px;
   color:#6f4e37;
 }
 .about{
-  background:#5E3214;
+  background:#6f4e37;
 }
 .about-container{
   display:flex;
